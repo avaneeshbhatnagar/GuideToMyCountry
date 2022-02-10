@@ -1,0 +1,255 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <style>
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://1.bp.blogspot.com/-kP6bmmixhvg/YDbA3kZ-75I/AAAAAAAA4Os/YS5VBD0fGnMgMteNDso4OWSsD-alvMyhgCLcBGAsYHQ/s0/Flag_of_India.gif");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://c.tenor.com/Row896Tzl7YAAAAC/indian-cuisine-indian-food.gif");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://c.tenor.com/stqBh5AWKI8AAAAd/holi-colors.gif");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+  h1{
+    text-align:center;
+  }
+    * {
+    
+  font-family: 'Arima Madurai', sans-serif;
+}
+ 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: inline-flex;
+  background: #5747e1;
+  color: white;
+  box-shadow: 1px 3px 4px #E6E6E6;
+  align-items: center;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.brand {
+  flex: 1;
+  margin: 0 25px;
+}
+
+.menu {
+  display: flex;
+  list-style:none;
+  margin-right: 25px;
+}
+
+.menu li a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  position: relative;
+  padding-bottom: 15px;
+  bottom: -7px;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search-input {
+  height: 0px;
+  border:none;
+  position: absolute;
+  left: -200px;
+  visibility: hidden;
+  opacity: 0;
+  top: 40px;
+  background: #5747e1;
+  color: white;
+  padding: 6px;
+  font-size: 12px;
+  outline: none;
+  width: 220px;
+  transition: 80ms all ease-in;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: none;
+}
+
+.search-button {
+  background:transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.search-button:hover + .search-input, .search-input:hover, .search:hover .search-input {
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 9 !important;
+  box-shadow: 1px 3px 4px #E6E6E6;
+  height: 25px !important;
+}
+
+  </style>
+  <body>
+    
+    <nav>
+      <div class="brand">
+        
+      </div>
+      <div class="navigation">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="famousPlaces.html">FamousPlaces</a></li>
+          <li><a href="Cuisine.html">Cuisine</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+        <div class="search">   
+          <div class="search-content">
+            <button class="search-button"><i class="fa fa-search"></i></button>
+            <input type="text" class="search-input" placeholder="Search here...">
+          </div>
+        </div>
+      </div>
+    </nav>
+  		<div class="d-flex flex-column justify-content-center w-100 h-100">
+
+</div>
+<br>
+
+
+
+	
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">A Guide to My Country</span> <br><br>   <span class="border">India</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Introduction</h3>
+  <p>Hello there Welcome to my website, A Guide to my country India. Above there are some links attached you can go through them to explore the famous places, Cuisine,etc. You can also login to our website to recieve the latest updates</p>
+<b>Avaneesh Bhatnagar</b>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Indian cuisine – Indian cuisine is always filled with a lot of herbs and spices. Furthermore, the specialty of Indian dishes is, it is always filled with curries. Whether veg or non-veg the dishes are in curry form. Moreover, Indian cuisine has so many varieties of food that has further branches. Visit the <a href="Cuisine.html"> Cuisine</a> Page to know more!
+</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Indian History is full of the rise and fall of many kingdoms and empires. Monuments, built y the kings and they perform of every period throw light on the past history of India. these monuments exhibit the glory of India and are part of our cultural heritage. Almost all states of India boast of some or the other important historical monuments. Thousands of tourists visit India to have a glimpse of its important historical places.Visit the <a href="famousPlaces.html">Famous Places</a> page to know more</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Forgot to tell -<br><br> This is the Flag of India </span>
+  </div>
+</div>
+  </body>
+</html>

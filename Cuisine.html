@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <style>
+   img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+  h1{
+    text-align:center;
+  }
+    * {
+    
+  font-family: 'Arima Madurai', sans-serif;
+}
+ 
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: inline-flex;
+  background: #5747e1;
+  color: white;
+  box-shadow: 1px 3px 4px #E6E6E6;
+  align-items: center;
+}
+
+.navigation {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.brand {
+  flex: 1;
+  margin: 0 25px;
+}
+
+.menu {
+  display: flex;
+  list-style:none;
+  margin-right: 25px;
+}
+
+.menu li a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  position: relative;
+  padding-bottom: 15px;
+  bottom: -7px;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.search-input {
+  height: 0px;
+  border:none;
+  position: absolute;
+  left: -200px;
+  visibility: hidden;
+  opacity: 0;
+  top: 40px;
+  background: #5747e1;
+  color: white;
+  padding: 6px;
+  font-size: 12px;
+  outline: none;
+  width: 220px;
+  transition: 80ms all ease-in;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: none;
+}
+
+.search-button {
+  background:transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+.search-button:hover + .search-input, .search-input:hover, .search:hover .search-input {
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 9 !important;
+  box-shadow: 1px 3px 4px #E6E6E6;
+  height: 25px !important;
+}
+
+  </style>
+  <body>
+    
+    <nav>
+      <div class="brand">
+        
+      </div>
+      <div class="navigation">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="famousPlaces.html">FamousPlaces</a></li>
+          <li><a href="Cuisine.html">Cuisine</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+        <div class="search">   
+          <div class="search-content">
+            <button class="search-button"><i class="fa fa-search"></i></button>
+            <input type="text" class="search-input" placeholder="Search here...">
+          </div>
+        </div>
+      </div>
+    </nav>
+  		<div class="d-flex flex-column justify-content-center w-100 h-100">
+
+</div>
+<br>
+
+
+
+		<h1 class="fw-light text-white m-0">Cuisine of  India</h1>
+		<p> Hello there!Thank you for visiting the Cuisine page!!Here I will be showcasing the Cuisine of India. <b><br>Avaneesh Bhatnagar</b>
+		</p>
+		
+		<h2>1. Rogan Josh</h2>
+		<p>It is one of the signature dishes of Kashmir. Robust with varied spices, the dish is cooked with the aroma of fennel seeds, garam masala, bay leaves, turmeric and is indeed a celebration of all senses. A delicious dinner party option, Rogan Josh can be best paired with butter naan or paratha.
+</p>
+<img src="https://i.ndtvimg.com/i/2015-03/mutton-korma_625x350_51426244304.jpg">
+<h2>2. Dhokla</h2>
+<p>A popular Gujarati snack, Dhokla is a steamed cake made from gram flour and channa dal is one of the best things to come out of Gujarat.  You can serve dhokla for breakfast as well as a light snack in the evening along with a cup of tea. A recipe that is steamed and made in just 30 minutes, using besan with a colorful, chili tempering is sure to set your taste buds racing!</p>
+<img src="">
+<img src="https://i.ndtvimg.com/i/2016-03/dhokla_625x350_41457508751.jpg">
+<h2>3.Kheer</h2>
+<p>Saving the best for the last! Kheer is the quintessential Indian dessert that is made on festivals and special occasions in almost every Indian home. It is delicious, light and easy to cook. This kheer recipe is a low fat makhana kheer, that can even be consumed during the fasting season of Navratri or if you are on a low fat diet. So no more resisting on your sweet cravings with this low fat makhana kheer!</p>
+<img src="https://c.ndtvimg.com/2018-09/tjeb8rvo_kheer_625x300_21_September_18.jpg">
+
+<h2>4. Banjari Gosht</h2>
+<p>Experience authentic Rajasthani flavours with this exquisite blend of yogurt and juicy mutton pieces.This is an easy Indian mutton recipe that you can prepare in about an hour with our step by step process. Serve with rice or any Indian bread at a dinner party. This is also a great recipe for festival get-together during Eid or Diwali.</p>
+<img src="https://i.ndtvimg.com/i/2016-03/mutton-curry_625x350_41458549653.jpg">
+
+<h2>5. Sarso Ka Saag </h2>
+<p>Indulge in the winter staple with this mouth-watering recipe of sarson ka saag. With the goodness of bathua, spinach and sarson, this recipe is super easy and quick to make. </p>
+<img src="https://c.ndtvimg.com/2020-12/fg2r68no_sarso-ka-saag_625x300_21_December_20.jpg">
+  </body>
+</html>
